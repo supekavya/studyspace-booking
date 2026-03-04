@@ -24,8 +24,7 @@ import java.util.List;
 public class SecurityConfig {
 
     private final JwtAuthFilter jwtAuthFilter;
-    private final UserDetailsServiceImpl userDetailsService;
-
+  
     @Value("${app.cors.allowed-origins}")
     private String allowedOrigins;
 
