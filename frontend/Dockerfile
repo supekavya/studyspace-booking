@@ -4,7 +4,7 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
-RUN npm run build
+RUN ./node_modules/.bin/vite build
 
 # Serve with nginx
 FROM nginx:alpine
