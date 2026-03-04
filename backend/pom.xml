@@ -18,7 +18,7 @@
     <description>Smart Study Room Booking System - Backend API</description>
 
     <properties>
-        <java.version>23</java.version>
+        <java.version>17</java.version>
     </properties>
 
     <dependencies>
